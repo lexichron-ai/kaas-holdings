@@ -25,6 +25,9 @@ Click on any of the core wiki modules below to explore our corporate architectur
 ### 🚀 [Module 4: Strategic Roadmap & Cloud Runway](docs/STRATEGY_RUNWAY.md)
 *Our execution plan, legal/IP protection timeline (provisional patent mapping), and optimization structure for our Google Cloud Console runway.*
 
+### 🤖 [Module 5: Automation & CI/CD Rollout Guide](docs/AUTOMATION.md)
+*Active GitHub Actions workflows, Dependabot config, PR quality gates, and a repeatable checklist for deploying automation to every KaaS Holdings repository.*
+
 ---
 
 ## 🔒 Confidentiality & Trade Secret Notice

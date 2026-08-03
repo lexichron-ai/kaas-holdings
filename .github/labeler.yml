@@ -1,0 +1,39 @@
+# PR Labeler configuration
+# Maps pull request file-path patterns to labels.
+# Docs: https://github.com/actions/labeler
+
+"documentation":
+  - changed-files:
+    - any-glob-to-any-file:
+      - "docs/**"
+      - "*.md"
+
+"site":
+  - changed-files:
+    - any-glob-to-any-file:
+      - "index.html"
+      - "_site/**"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_config.yml"
+
+"ci/cd":
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/workflows/**"
+      - ".github/dependabot.yml"
+
+"dependencies":
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/dependabot.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "package.json"
+      - "package-lock.json"
+
+"security":
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/workflows/codeql.yml"
+      - "SECURITY.md"
